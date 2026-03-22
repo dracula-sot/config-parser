@@ -1,0 +1,12 @@
+{
+  "app_name": "config-parser",
+  "version": "1.0.0",
+  "debug": true,
+  "log_level": "info",
+  "input_path": "/etc/app/config.json",
+  "output_path": "/var/log/app/output.log",
+  "features": {
+    "normalize_keys": true,
+    "strict_validation": false
+  }
+}
